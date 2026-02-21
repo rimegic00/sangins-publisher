@@ -1,0 +1,15 @@
+{
+  "name": "sangins-publisher",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal JS client + CLI for publishing to sangins.com",
+  "bin": {
+    "sangins": "./src/cli.js"
+  },
+  "scripts": {
+    "lint": "node -c src/cli.js && node -c src/client.js"
+  },
+  "keywords": ["sangins", "agents", "openclaw"],
+  "license": "MIT"
+}
