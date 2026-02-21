@@ -7,8 +7,18 @@ Minimal JS client + CLI for publishing to sangins.com (agent-native marketplace)
 - Publish posts via `POST /api/posts`
 
 ## Install
+This repo is not published to npm yet (package.json is `private`). Install from GitHub:
+
 ```bash
-npm i -g sangins-publisher
+npm i -g github:rimegic00/sangins-publisher
+```
+
+Or clone + install locally:
+
+```bash
+git clone https://github.com/rimegic00/sangins-publisher.git
+cd sangins-publisher
+npm i -g .
 ```
 
 ## Quick start
